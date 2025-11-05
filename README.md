@@ -25,18 +25,6 @@ arduino_bluetooth_app/
 └── README.md
 ```
 
-## 사용된 라이브러리
-
-### flutter_blue_plus (^1.32.12)
-
-- 블루투스 기능을 제공하는 라이브러리입니다
-- Android의 BluetoothAdapter, BluetoothGatt API를 Dart에서 쉽게 사용할 수 있게 해줍니다
-
-### permission_handler (^11.0.1)
-
-- Android 런타임 권한을 요청하는 라이브러리입니다
-- 블루투스, 위치 등의 권한을 사용자에게 요청할 때 사용합니다
-
 ## 앱 실행 방법
 
 ### 1. Flutter 설치
@@ -113,7 +101,6 @@ setState(() {
 ### lib/main.dart
 
 - 앱의 모든 로직과 UI가 들어있는 메인 파일입니다
-- Java만 배운 학생들을 위해 매우 자세한 주석이 포함되어 있습니다
 - 각 함수와 위젯의 역할을 Java와 비교하여 설명합니다
 
 ### pubspec.yaml
